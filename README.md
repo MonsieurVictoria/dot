@@ -1,1 +1,1 @@
-# It's the stuff I use.
+# It's just the stuff I use for my linux setup.
