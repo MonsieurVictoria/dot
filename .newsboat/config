@@ -1,0 +1,14 @@
+auto-reload no
+
+color listnormal cyan default
+color listfocus blue yellow standout bold
+color listnormal_unread blue default
+color listfocus_unread yellow default bold
+color info red default bold
+color article cyan default
+
+highlight article "^Feed:.*" color5 default
+highlight article "^Title:.*" color3 default bold 
+highlight article "^Author:.*" color2 default
+highlight article "^Link:.*" color4 default
+highlight article "^Flags:.*" color9 default
