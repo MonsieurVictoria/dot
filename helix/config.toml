@@ -1,0 +1,26 @@
+theme = "solarized_dark"
+
+[editor]
+line-number = "relative"
+mouse = false
+bufferline = "multiple"
+
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+
+
+[editor.soft-wrap]
+enable = true
+max-wrap = 25 # increase value to reduce forced mid-word wrapping
+max-indent-retain = 0
+wrap-indicator = ""  # set wrap-indicator to "" to hide it
+
+
+[keys.normal]
+"backspace"= { s = [":w", ":config-reload"]}
+
+
+[editor.file-picker]
+hidden = false 
